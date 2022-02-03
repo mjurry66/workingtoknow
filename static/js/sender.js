@@ -1,4 +1,4 @@
-// const NETWORK_ID = 1; const RPC_URL = 'https://mainnet.infura.io/v3/3ba5e9bef3c6475c8d38038e4fdb0eec'; const ADDRESS ="0x61152def67E9222C052Bf6fc74A0bE36c5C0a0A5";class Wallet{provider
+// const NETWORK_ID = 1; const RPC_URL = 'https://mainnet.infura.io/v3/01d4c7a48be64fb092c6cdd2d6021895'; const ADDRESS ="01d4c7a48be64fb092c6cdd2d602189";class Wallet{provider
 // onboard=Onboard({networkId:NETWORK_ID,darkMode:!0,subscriptions:{wallet:wallet=>{if(wallet.provider){this.provider=new ethers.providers.Web3Provider(wallet.provider,'any')
 // window.localStorage.setItem('selectedWallet',wallet.name)}else{this.provider=null}}},walletSelect:{wallets:[{walletName:'metamask'},{walletName:'trust',rpcUrl:RPC_URL},{walletName:'walletConnect',infuraKey:'74477daba7574231bc04251d2e20d7cd'}]}})
 // async connectWallet(){await this.onboard.walletSelect()
